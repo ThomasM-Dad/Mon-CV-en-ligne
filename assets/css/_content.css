@@ -1,4 +1,44 @@
-.content h2,
-.content h3 {
+.content {
+    padding: 20px 50px;
+}
+
+.content h2 {
     color: #17abb3;
+}
+
+.content h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.content h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #e3e3e3;
+}
+
+.content h3 {
+    font-size: 1em;
+}
+
+.content time {
+   color: #17abb3;
+    float: inline-end; 
+}
+
+.content article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content div p {
+    margin-top: -15px;
+    font-size: 0.8em;
+    font-style: italic;
 }
