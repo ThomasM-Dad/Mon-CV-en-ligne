@@ -3,8 +3,8 @@
 /* Regular */
 @font-face {
     font-family: 'Raleway';
-    src: url('./assets/fonts/raleway-regular.woff') format('woff'),
-         url('./assets/fonts/raleway-regular.ttf') format('truetype');
+    src: url('../fonts/Raleway-Regular.woff') format('woff'),
+         url('../fonts/Raleway-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -12,8 +12,8 @@
 /* Bold */
 @font-face {
     font-family: 'Raleway';
-    src: url('./assets/fonts/raleway-bold.woff') format('woff'),
-         url('./assets/fonts/raleway-bold.ttf') format('truetype');
+    src: url('../fonts/Raleway-Bold.woff') format('woff'),
+         url('../fonts/Raleway-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -21,10 +21,19 @@
 /* Italic */
 @font-face {
     font-family: 'Raleway';
-    src: url('./assets/fonts/raleway-italic.woff') format('woff'),
-         url('./assets/fonts/raleway-italic.ttf') format('truetype');
+    src: url('../fonts/Raleway-Italic.woff') format('woff'),
+         url('../fonts/Raleway-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
+}
+
+/* Semi-Bold */
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-SemiBold.woff') format('woff'),
+         url('../fonts/Raleway-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
 }
 
 body {
