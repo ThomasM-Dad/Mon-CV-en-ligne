@@ -15,6 +15,7 @@ Icônes fournies par [Flaticon](https://www.flaticon.com) :
 | GitHub    | Pixel perfect  | [Voir](https://www.flaticon.com/fr/icones-gratuites/github) |
 | Twitter   | Freepik        | [Voir](https://www.flaticon.com/fr/icones-gratuites/tweeter) |
 | LinkedIn  | riajulislam    | [Voir](https://www.flaticon.com/fr/icones-gratuites/linkedin) |
+| Favicon (CV) | Freepik     | [Voir](https://www.flaticon.com/fr/icones-gratuites/cv) |
 
 ### Stages
 
