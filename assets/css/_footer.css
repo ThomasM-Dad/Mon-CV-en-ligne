@@ -19,6 +19,11 @@
   text-decoration: none;
   font-size: 22px;
   padding-right: 5px;
+  transition: opacity 0.3s ease;
+}
+
+.footer__link:hover {
+    opacity: 0.6;
 }
 
 .footer__update{
