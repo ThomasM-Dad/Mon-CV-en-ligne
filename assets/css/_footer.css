@@ -1,25 +1,25 @@
 .footer {
-  background-color: #17abb3;
-  width: 100%;
-  padding: 18px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  color: white;
+    background-color: #17abb3;
+    width: 100%;
+    padding: 18px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: white;
 }
 
 .footer__socials {
-  display: flex;
-  gap: 20px;
-  align-items: center;
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
 .footer__link {
-  text-decoration: none;
-  font-size: 22px;
-  padding-right: 5px;
-  transition: opacity 0.3s ease;
+    text-decoration: none;
+    font-size: 22px;
+    padding-right: 5px;
+    transition: opacity 0.3s ease;
 }
 
 .footer__link:hover {
@@ -27,9 +27,9 @@
 }
 
 .footer__update{
-  font-size: 12px;
-  font-style: italic;
-  margin: 0;
+    font-size: 12px;
+    font-style: italic;
+    margin: 0;
 }
 
 .footer img {
