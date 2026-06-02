@@ -15,3 +15,9 @@ Icônes fournies par [Flaticon](https://www.flaticon.com) :
 | GitHub    | Pixel perfect  | [Voir](https://www.flaticon.com/fr/icones-gratuites/github) |
 | Twitter   | Freepik        | [Voir](https://www.flaticon.com/fr/icones-gratuites/tweeter) |
 | LinkedIn  | riajulislam    | [Voir](https://www.flaticon.com/fr/icones-gratuites/linkedin) |
+
+### Stages
+
+J'ai fais le choix de laisser en WIP dans la partie stage, n'ayant effectué aucun stage depuis le lycée je dirais.
+Aucune date, ni nom exact des établissements retrouvé mais je saisi correctement la démarche du devoir.
+La mise en forme HTML / CSS respecte la maquette du devoir. (Identique à la partie : Formations & Expérience profesionnelle).

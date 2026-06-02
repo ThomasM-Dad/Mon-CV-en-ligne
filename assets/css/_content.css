@@ -1,3 +1,4 @@
+/* CSS pour le content du CV */
 .content {
     padding: 30px 50px;
 }
@@ -30,16 +31,6 @@
     margin: 0;
 }
 
-.content article {
-    border-left: 3px solid transparent;
-    transition: border-color 0.3s ease, background-color 0.3s ease;
-}
-
-.content article:hover {
-    border-left: 3px solid #17abb3;;
-    background-color: #e3e3e3;
-}
-
 .content h3 {
     font-size: 1em;
 }
@@ -48,9 +39,17 @@
     color: #17abb3;
 }
 
+/* Effet N°1 du devoir */
 .content article {
     display: flex;
     justify-content: space-between;
+    border-left: 3px solid transparent;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.content article:hover {
+    border-left: 3px solid #17abb3;;
+    background-color: #e3e3e3;
 }
 
 .content div p {
