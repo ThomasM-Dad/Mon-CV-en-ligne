@@ -6,6 +6,8 @@
     <title>Mon CV</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/_header.css">
+    <link rel="stylesheet" href="./assets/css/_content.css">
+    <link rel="stylesheet" href="./assets/css/_sidebar.css">
 </head>
 <body>
     <div class="container">
@@ -47,41 +49,47 @@
             <!-- Block Sidebar sur la gauche avec Compétences, Langues, ... -->
             <div class="sidebar">
 
-                <section>
+                <section class="sidebar__skill">
                     <h2>Compétences</h2>
                     <ul>
-                        <li>HTML ★★★★☆</li>
-                        <li>CSS ★★★☆☆</li>
-                        <li>Javascript ★☆☆☆☆</li>
-                        <li>PHP ★☆☆☆☆</li>
+                        <li><span>HTML</span> <span class="star">★★★★☆</span></li>
+                        <li><span>CSS</span> <span class="star">★★★☆☆</span></li>
+                        <li><span>Javascript</span> <span class="star">★☆☆☆☆</span></li>
+                        <li><span>PHP</span> <span class="star">★☆☆☆☆</span></li>
                     </ul>
                 </section>
 
-                <section>
+                <section class="sidebar__language">
                     <h2>Langues</h2>
                     <dl>
-                        <dt>Français</dt>
-                        <dd>Langue Maternelle</dd>
+                        <div>
+                            <dt>Français</dt>
+                            <dd>Langue Maternelle</dd>
+                        </div>
 
-                        <dt>Anglais</dt>
-                        <dd>Niveau faible</dd>
-
-                        <dt>Espagnol</dt>
-                        <dd>LV2 au Lycée</dd>
+                        <div>
+                            <dt>Anglais</dt>
+                            <dd>Notions</dd>
+                        </div>
+                        
+                        <div>
+                            <dt>Espagnol</dt>
+                            <dd>LV2 au Lycée</dd>
+                        </div>
                     </dl>
                 </section>
 
-                <section>
+                <section class="sidebar__qualities">
                     <h2>Qualités</h2>
                     <ul>
-                        <li>Esprit d'équipe</li>
+                        <li>Rigoureux</li>
                         <li>Polyvalence</li>
                         <li>Organisation</li>
-                        <li>...</li>
+                        <li>Persévérance</li>
                     </ul>
                 </section>
 
-                <section>
+                <section class="sidebar__interest">
                     <h2>Centres d'intérêt</h2>
                     <ul>
                         <li>Jeux Vidéo</li>
@@ -93,30 +101,53 @@
 
             <!-- Block contenu avec Profil, Formations, ...-->
             <div class="content">
-                <h2>Profil</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Exercitationem iure at error, esse illum expedita tenetur.
-                    Architecto molestiae rem beatae magni, voluptatem nemo laborum aspernatur dolor eligendi fugit cum dolorum?</p>
-                
+                <section class="content__profile">
+                    <h2>Profil</h2>
+                    <p>
+                        Depuis toujours attiré par l'univers du numérique, je consacre une partie de mon temps à découvrir de nouvelles technologies et à réaliser des projets personnels liés à l'informatique.
+                        Ces expériences m'ont permis de développer mon autonomie, ma logique et ma capacité à résoudre des problèmes tout en renforçant ma curiosité pour le développement web et mobile.
+                    </p>
+                    <p>
+                        J'apprécie particulièrement apprendre de nouvelles compétences et relever des défis techniques.
+                        Aujourd'hui, je souhaite approfondir mes connaissances dans le développement web afin de concevoir des sites et applications performants, accessibles et adaptés aux besoins des utilisateurs.
+                        Mon objectif est de transformer cette passion en véritable métier et de continuer à évoluer dans le domaine du numérique.
+                    </p>
+                </section>
+
                 <section>
                     <h2>Formations</h2>
 
                     <article>
-                        <h3>Titre professionnel DWWM</h3>
-                        <p>Centre Européen de Formation</p>
-                        <p><time datetime="">Mai 2025 - Aujourd'hui</time></p>
+                        <div>
+                            <h3>Titre professionnel DWWM</h3>
+                            <p>Centre Européen de Formation</p>
+                        </div>
+                        <p>
+                            <time datetime="2026-05">Mai 2026</time> -
+                            <time datetime="2026-06">Aujourd'hui</time>
+                        </p>
                     </article>
 
                     <article>
-                        <h3>Animateur de Service (Responsable)</h3>
-                        <p>Flunch, Villeneuve-d'Ascq</p>
-                        <p><time datetime="">Janvier 2020 - Juin 2020</time></p>
+                        <div>
+                            <h3>Animateur de Service (Responsable)</h3>
+                            <p>Flunch, Villeneuve-d'Ascq</p>
+                        </div>
+                        <p>
+                            <time datetime="2020-01">Janvier 2020</time> -
+                            <time datetime="2020-06">Juin 2020</time>
+                        </p>
                     </article>
 
                     <article>
-                        <h3>Codeur / Développeur Web</h3>
-                        <p>AFPA</p>
-                        <p><time datetime="">2016 - 2017</time></p>
+                        <div>
+                            <h3>Codeur / Développeur Web</h3>
+                            <p>AFPA</p>
+                        </div>
+                        <p>
+                            <time datetime="2016">2016</time> - 
+                            <time datetime="2017">2017</time>
+                        </p>
                     </article>
                 </section>
 
@@ -125,9 +156,25 @@
                     <h2>Stages</h2>
 
                     <article>
-                        <h3>WIP</h3>
-                        <p>WIP</p>
-                        <p>WIP</p>
+                        <div>
+                            <h3>WIP</h3>
+                            <p>WIP</p>
+                        </div>
+                        <p>
+                            <time datetime="">WIP</time> -
+                            <time datetime="">WIP</time>
+                        </p>
+                    </article>
+
+                    <article>
+                        <div>
+                            <h3>WIP</h3>
+                            <p>WIP</p>
+                        </div>
+                        <p>
+                            <time datetime="">WIP</time> -
+                            <time datetime="">WIP</time>
+                        </p>
                     </article>
                 </section>
 
@@ -135,20 +182,35 @@
                     <h2>Expérience professionnelle</h2>
 
                     <article>
-                        <h3>Employé Polyvalent</h3>
-                        <p>Burger Circus</p>
-                        <p><time datetime="">Juin 2025 - Septembre 2025</time></p>
+                        <div>
+                            <h3>Employé Polyvalent</h3>
+                            <p>Burger Circus</p>
+                        </div>
+                        <p>
+                            <time datetime="2025-06">Juin 2025</time> -
+                            <time datetime="2025-09">Septembre 2025</time>
+                        </p>
                     </article>
                     <article>
-                        <h3>Directeur</h3>
-                        <p>The Still Irish Bar</p>
-                        <p><time datetime="">Novembre 2022 - Septembre 2024</time></p>
+                        <div>
+                            <h3>Directeur</h3>
+                            <p>The Still Irish Bar</p>
+                        </div>
+                        <p>
+                            <time datetime="2022-11">Novembre 2022</time> -
+                            <time datetime="2024-09">Septembre 2024</time>
+                        </p>
                     </article>
 
                     <article>
-                        <h3>Directeur Adjoint</h3>
-                        <p>The Still Irish Bar</p>
-                        <p><time datetime="">Juin 2021 - Octobre 2022</time></p>
+                        <div>
+                            <h3>Directeur Adjoint</h3>
+                            <p>The Still Irish Bar</p>
+                        </div>
+                        <p>
+                            <time datetime="2021-06">Juin 2021 -
+                            <time datetime="2022-10">Octobre 2022</time>
+                        </p>
                     </article>
                 </section>
             </div>
