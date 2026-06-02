@@ -1,13 +1,10 @@
 .content {
-    padding: 20px 50px;
+    padding: 30px 50px;
 }
 
 .content h2 {
     color: #17abb3;
-}
-
-.content h2 {
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin-bottom: 15px;
     padding-bottom: 10px;
     position: relative;
@@ -23,13 +20,18 @@
     background-color: #e3e3e3;
 }
 
+.content__profile p {
+    text-align: justify;
+    text-indent: 2em;
+    margin: 0;
+}
+
 .content h3 {
     font-size: 1em;
 }
 
 .content time {
    color: #17abb3;
-    float: inline-end; 
 }
 
 .content article {
