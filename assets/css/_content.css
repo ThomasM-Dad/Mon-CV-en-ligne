@@ -5,7 +5,7 @@
 .content h2 {
     color: #17abb3;
     font-size: 1.4em;
-    margin-bottom: 15px;
+    margin-bottom: 0;
     padding-bottom: 10px;
     position: relative;
 }
@@ -20,6 +20,10 @@
     background-color: #e3e3e3;
 }
 
+.content__profile h2 {
+    margin-bottom: 20px;
+}
+
 .content__profile p {
     text-align: justify;
     text-indent: 2em;
@@ -30,8 +34,8 @@
     font-size: 1em;
 }
 
-.content time {
-   color: #17abb3;
+.content__time {
+    color: #17abb3;
 }
 
 .content article {
