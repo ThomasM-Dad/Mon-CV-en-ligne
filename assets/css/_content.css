@@ -23,12 +23,13 @@
 }
 
 .content__profile h2 {
-    margin-bottom: 20px;
+    margin-bottom: 26px;
 }
 
+/* Texte indenté et justifié comme demandé dans le devoir */
 .content__profile p {
     text-align: justify;
-    text-indent: 2em;
+    text-indent: 1.6em;
     margin: 0;
 }
 
