@@ -22,3 +22,7 @@ Icônes fournies par [Flaticon](https://www.flaticon.com) :
 J'ai fais le choix de laisser en WIP dans la partie stage, n'ayant effectué aucun stage depuis le lycée je dirais.
 Aucune date, ni nom exact des établissements retrouvé mais je saisi correctement la démarche du devoir.
 La mise en forme HTML / CSS respecte la maquette du devoir. (Identique à la partie : Formations & Expérience profesionnelle).
+
+#### Liens vers réseaux sociaux
+
+Je n'ai pas de compte Linkedin donc l'url renvoit uniquement vers la page principale du réseau social.
