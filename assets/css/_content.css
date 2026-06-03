@@ -1,11 +1,13 @@
+/* CSS pour le content du CV */
 .content {
-    padding: 30px 50px;
+    padding: 30px 50px 80px 50px;
+    background-color: #ffffff;
 }
 
 .content h2 {
     color: #17abb3;
     font-size: 1.4em;
-    margin-bottom: 0;
+    margin: 1rem 0 0.3rem 0;
     padding-bottom: 10px;
     position: relative;
 }
@@ -21,30 +23,46 @@
 }
 
 .content__profile h2 {
-    margin-bottom: 20px;
+    margin-bottom: 26px;
 }
 
+/* Texte indenté et justifié comme demandé dans le devoir */
 .content__profile p {
     text-align: justify;
-    text-indent: 2em;
+    text-indent: 1.6em;
     margin: 0;
 }
 
 .content h3 {
     font-size: 1em;
+    margin: 0;
+}
+
+.content__profile {
+    margin-bottom: 30px;
 }
 
 .content__time {
     color: #17abb3;
+    margin: 0;
 }
 
+/* Effet N°1 du devoir */
 .content article {
     display: flex;
     justify-content: space-between;
+    border-left: 3px solid transparent;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    padding: 10px 0;
+}
+
+.content article:hover {
+    border-left: 3px solid #17abb3;
+    background-color: #e3e3e3;
 }
 
 .content div p {
-    margin-top: -15px;
+    margin: 0;
     font-size: 0.8em;
     font-style: italic;
 }
